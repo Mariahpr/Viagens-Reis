@@ -1,0 +1,37 @@
+header {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+}
+ 
+ .galeria { 
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+ }
+
+.foto img {
+    width: 250px;
+    height: 200px;
+}
+
+.foto h2 {
+    margin: 18px 0px;
+}
+
+.foto p {
+    color: brown;
+    font-size: 18px;
+}
+
+.foto button {
+    background-color: rgb(14, 94, 11);
+    color: aliceblue;
+    border:none;
+    border-radius: 45px;
+    cursor: pointer;
+}
